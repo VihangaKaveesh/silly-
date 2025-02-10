@@ -44,8 +44,8 @@ export default function ApologyPage() {
         ))}
 
       <motion.div
-        initial={{ scale: 1, opacity: 0 }}
-        animate={{ scale: 2, opacity: 1 }}
+        initial={{ scale: 0, opacity: 0 }}
+        animate={{ scale: 1, opacity: 1 }}
         transition={{ duration: 2, ease: "easeOut" }}
         className="bg-white p-5 rounded-xl shadow-lg text-center z-10 justify-center"
       >
